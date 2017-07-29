@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+int n;
+/* enter the number */
+scanf("%d",&n);
+if(n==0)
+{
+ printf("zero");
+}
+else if(n>0)
+{
+printf("positive");
+}
+else
+{
+printf("nagative");
+}
+
+return 0;
+}
